@@ -2,7 +2,15 @@
 
 
 
-@theme  {
-
+@theme {
+  --color-primarys: #E5745D;
+  --color-secondarys: #00413D;
 }
 
+.font-jost {
+  font-family: var(--font-jost);
+}
+
+.font-Vollkorn {
+  font-family: var(--font-Vollkorn);
+}
