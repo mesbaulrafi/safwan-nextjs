@@ -9,6 +9,7 @@ const Header = () => {
     <>
       <header className="py-2.5 ">
         <Container>
+          {/* Logo & Menu */}
           <div className="flex justify-between items-center flex-col lg:flex-row gap-y-10">
             {/* Logo */}
             <div className="">
@@ -24,6 +25,7 @@ const Header = () => {
                 <li className="cursor-pointer text-[18px] hover:text-primary text-secondary duration-300">Contact</li>
               </ul>
             </nav>
+            {/* Nav Button */}
             <div className="">
               <Button btnText={'Download CV'}/>
             </div>
