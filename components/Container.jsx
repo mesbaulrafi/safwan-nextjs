@@ -2,7 +2,7 @@ import React from 'react'
 
 const Container = (className,children) => {
   return (
-    <div className={`w-292.5 mx-auto ${className} `} >{children}</div>
+    <div className={`lg:w-292.5 px-3 lg:px-0 mx-auto ${className} `} >{children}</div>
   )
 }
 
