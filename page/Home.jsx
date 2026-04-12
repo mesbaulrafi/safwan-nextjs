@@ -1,12 +1,10 @@
-// import Banner from '@/layouts/Banner'
-import Header from '@/layouts/Header'
+import Banner from '@/layouts/Banner'
 import React from 'react'
 
 const Home = () => {
   return (
     <div>
-      <Header/>
-      {/* <Banner/> */}
+      <Banner/>
     </div>
   )
 }

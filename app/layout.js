@@ -1,5 +1,6 @@
 import { Jost, Vollkorn } from "next/font/google";
 import "./globals.css";
+import Header from "@/layouts/Header";
 
 
 const vollkorn = Vollkorn({
@@ -25,8 +26,9 @@ export default function RootLayout({ children }) {
       lang="en"
        className={`${jost.variable} ${vollkorn.variable} h-full antialiased`}
     >
-      <body className="min-h-full flex flex-col">{children}
-       
+      <body className="min-h-full flex flex-col">
+        <Header/>
+        {children}
       </body>
     </html>
   );
