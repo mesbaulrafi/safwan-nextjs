@@ -1,9 +1,13 @@
-import Banner from '@/layouts/Banner'
+// import Banner from '@/layouts/Banner'
+import Header from '@/layouts/Header'
 import React from 'react'
 
 const Home = () => {
   return (
-    <div><Banner/></div>
+    <div>
+      <Header/>
+      {/* <Banner/> */}
+    </div>
   )
 }
 

@@ -3,8 +3,8 @@
 
 
 @theme {
-  --color-primarys: #E5745D;
-  --color-secondarys: #00413D;
+  --color-primary: #E5745D;
+  --color-secondary: #00413D;
 }
 
 .font-jost {
