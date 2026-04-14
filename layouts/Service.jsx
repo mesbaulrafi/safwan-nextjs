@@ -1,8 +1,19 @@
+import Container from '@/components/Container'
 import React from 'react'
 
 const Service = () => {
   return (
-    <div>Service</div>
+    <>
+    <section>
+        <div className="">
+            <Container>
+                <div className="">
+                    
+                </div>
+            </Container>
+        </div>
+    </section>
+    </>
   )
 }
 
