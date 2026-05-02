@@ -13,7 +13,7 @@ const Header = () => {
           <div className="flex justify-between items-center flex-col lg:flex-row gap-y-10">
             {/* Logo */}
             <div className="">
-              <Image src={Logo} />
+              <Image src={Logo} alt="Logo"/>
             </div>
             {/* Menu */}
             <nav className="">
