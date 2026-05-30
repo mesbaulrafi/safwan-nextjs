@@ -30,7 +30,34 @@ export default function Services() {
 
     return (
         <>
-        
+        <section id='services'>
+            <div className="pt-55 pb-30">
+                <Container>
+                    {/* icon */}
+                    <div className="lg:w-42.75 mx-auto flex items-center gap-x-2.25">
+                        <div className="flex items-center">
+                            <div className="w-10 h-px bg-primarys"></div>
+                            <div className="w-1.5 h-1.5 bg-primarys rounded-full -ml-1"></div>
+                        </div>
+                        <h4 className='text-primarys text-lg font-medium font-vol text-center tracking-[2%]'>MY SERVICES</h4>
+                    </div>
+                    <h3 className='text-center text-[40px] lg:text-[50px] text-secondarys font-medium font-vol lg:px-75 pt-2.75 leading-15'>Provide Wide Range of Digital Services</h3>
+                    <div className="mt-10">
+                        <div className="grid lg:grid-cols-3 grid-cols-1 sm:grid gap-7.5">
+                        {services.map((item)=>(
+                            <div key={item.id}>
+                                <Service
+                                serviceImg={item.serviceImg}
+                                serviceTitle={item.serviceTitle}
+                                serviceDetails={item.serviceDesc}
+                                />
+                            </div>
+                        ))}
+                        </div>
+                    </div>
+                </Container>
+            </div>
+        </section>
         </>
     )
 }
