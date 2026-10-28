@@ -30,7 +30,7 @@ export default function Services() {
 
     return (
         <>
-        {/* <section id='services'>
+        <section id='services'>
             <div className="pt-55 pb-30">
                 <Container>
                     {/* icon */}
@@ -57,7 +57,7 @@ export default function Services() {
                     </div>
                 </Container>
             </div>
-        </section> */}
+        </section>
         </>
     )
 }
